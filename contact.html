@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get a Quote | SK Painting Solutions — Bartlesville, Owasso &amp; Tulsa, OK</title>
+  <meta name="description" content="Request a quote from SK Painting Solutions. Interior and exterior painting, rental turnovers, and construction repair across Bartlesville, Owasso, and the Tulsa area." />
+
+  <meta property="og:title" content="Get a Quote | SK Painting Solutions" />
+  <meta property="og:description" content="Tell us about the project. Shane will follow up within 1–2 business days." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://skpaintingsolutions.com/contact.html" />
+  <link rel="canonical" href="https://skpaintingsolutions.com/contact.html" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231B3055'/%3E%3Cpath d='M4 18 L16 6 L28 18 L25 18 L25 27 L7 27 L7 18Z' fill='none' stroke='%239E2020' stroke-width='1.6'/%3E%3C/svg%3E" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- GA4: drop measurement ID below when ready -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script> -->
+</head>
+<body class="page-contact">
+
+  <!-- ====== TOP BAR ====== -->
+  <div class="top-bar">
+    <div class="wrap">
+      <a href="tel:+19189070298" class="tb-phone">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58L3.654 1.328z"/></svg>
+        918-907-0298
+      </a>
+      <span class="tb-area">Serving Bartlesville &nbsp;&middot;&nbsp; Owasso &nbsp;&middot;&nbsp; Tulsa, OK</span>
+    </div>
+  </div>
+
+  <!-- ====== NAV ====== -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="site-logo" aria-label="SK Painting Solutions — Home">
+        <img src="assets/sk-logo.jpg" alt="SK Painting Solutions" class="site-logo-img">
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="service-area.html">Areas</a></li>
+        <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-panel">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav-mobile-panel" id="mobile-panel" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Work</a>
+    <a href="service-area.html">Areas</a>
+    <a href="contact.html" class="nav-cta-mobile">Get a Quote</a>
+    <a href="tel:+19189070298" class="nav-phone-mobile">918-907-0298</a>
+  </div>
+  <div class="nav-overlay" aria-hidden="true"></div>
+
+
+  <main>
+
+    <!-- ====== PAGE HEADER ====== -->
+    <header class="page-header" aria-label="Contact">
+      <div class="wrap">
+        <span class="page-header-eyebrow">Request a quote</span>
+        <h1>Tell us about the job.</h1>
+        <p class="page-header-lead">Fill out the form below and Shane will follow up within one to two business days. If it's more urgent, call directly at 918-907-0298.</p>
+      </div>
+    </header>
+
+
+    <!-- ====== CONTACT LAYOUT ====== -->
+    <div class="contact-layout">
+
+      <!-- Form -->
+      <div>
+
+        <!-- Success message shown by JS if ?success=1 in URL after Netlify submission -->
+        <div class="form-success" id="form-success" role="alert" aria-live="polite">
+          <p><strong>Got it.</strong> Shane will be in touch within 1–2 business days. If you need to reach him sooner, call directly at 918-907-0298.</p>
+        </div>
+
+        <!--
+          Netlify Forms setup:
+          - data-netlify="true" enables Netlify form handling
+          - name attribute must match the hidden form-name input value
+          - action redirects to this same page with ?success=1 so the JS shows the success message
+        -->
+        <form
+          id="quote-form"
+          name="quote-request"
+          method="POST"
+          data-netlify="true"
+          action="/contact.html?success=1"
+          aria-label="Request a quote"
+        >
+          <!-- Required by Netlify Forms -->
+          <input type="hidden" name="form-name" value="quote-request" />
+
+          <p class="quote-form-heading">Project details</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="First and last"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Your phone number"
+                autocomplete="tel"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="address">Property address or city</label>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Address or city where the work will be done"
+              autocomplete="street-address"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="project-type">Type of project</label>
+            <select id="project-type" name="project-type" required>
+              <option value="" disabled selected>Select one</option>
+              <option value="interior-painting">Interior Painting</option>
+              <option value="exterior-painting">Exterior Painting</option>
+              <option value="rental-repaint">Rental Property Repaint</option>
+              <option value="detail-finish">Detail / Fine Finish Work (trim, cabinets)</option>
+              <option value="construction-repair">Construction Repair (drywall, carpentry)</option>
+              <option value="multiple">Multiple services</option>
+              <option value="not-sure">Not sure yet — need a conversation</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell us about the project</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Size of the job, any specific requirements, timing — whatever is helpful. The more detail, the more accurate the quote."
+              rows="5"
+            ></textarea>
+          </div>
+
+          <div class="form-submit-row">
+            <button type="submit" class="btn-primary btn-clay">Send Request</button>
+            <p class="form-notice">No spam. No pitch. Just a response from Shane about the job.</p>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- Info panel -->
+      <aside class="contact-info-panel" aria-label="Direct contact information">
+        <div class="contact-info-panel-head">Contact Information</div>
+
+        <div class="contact-direct-btns">
+          <a href="tel:+19189070298" class="btn-contact btn-contact--call">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58L3.654 1.328z"/></svg>
+            Call Us
+          </a>
+          <a href="sms:+19189070298?body=Hi Shane, I saw your website and I'm interested in getting a quote from SK Painting Solutions." class="btn-contact btn-contact--text">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4.5l-3 2.5A.5.5 0 0 1 1 14V12H2a2 2 0 0 1-2-2V4z"/></svg>
+            Text Us
+          </a>
+        </div>
+
+        <div class="contact-info-block">
+          <span class="contact-info-label">Call or text</span>
+          <span class="contact-info-val">
+            <a href="tel:+19189070298">918-907-0298</a>
+          </span>
+        </div>
+        <div class="contact-info-block">
+          <span class="contact-info-label">Email</span>
+          <span class="contact-info-val">
+            <a href="mailto:Skhomesolutions918@gmail.com">Skhomesolutions918@gmail.com</a>
+          </span>
+        </div>
+        <div class="contact-info-block">
+          <span class="contact-info-label">Best way to reach</span>
+          <span class="contact-info-val">Call or text — fastest response</span>
+        </div>
+        <div class="contact-info-block">
+          <span class="contact-info-label">Based in</span>
+          <span class="contact-info-val">Bartlesville, OK</span>
+        </div>
+        <div class="contact-info-block">
+          <span class="contact-info-label">Service area</span>
+          <span class="contact-info-val">Bartlesville, Owasso &amp; greater Tulsa</span>
+        </div>
+        <div class="contact-info-block">
+          <span class="contact-info-label">Typical response</span>
+          <span class="contact-info-val">1–2 business days</span>
+        </div>
+        <p class="contact-response-note">Shane reviews quote requests personally. If you have photos of the project area, feel free to mention that in the message — he may ask you to send them before scheduling a walk-through.</p>
+      </aside>
+
+    </div>
+
+  </main>
+
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+
+      <div class="footer-biz-card">
+        <p class="footer-biz-name">SK Painting Solutions</p>
+        <p class="footer-biz-tagline">Ten years in the trade. Work that holds up.</p>
+        <div class="footer-biz-details">
+          <div class="footer-biz-item">
+            <span class="footer-biz-label">Phone</span>
+            <span class="footer-biz-val"><a href="tel:+19189070298">918-907-0298</a></span>
+          </div>
+          <div class="footer-biz-item">
+            <span class="footer-biz-label">Email</span>
+            <span class="footer-biz-val">Skhomesolutions918@gmail.com</span>
+          </div>
+          <div class="footer-biz-item">
+            <span class="footer-biz-label">Service Area</span>
+            <span class="footer-biz-val">Bartlesville, Owasso &amp; greater Tulsa, OK</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="index.html" class="site-logo" aria-label="SK Painting Solutions">
+            <img src="assets/sk-logo.jpg" alt="SK Painting Solutions" class="site-logo-img">
+          </a>
+          <p class="footer-tagline">Ten years in the trade. Work that holds up.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <div class="footer-col">
+            <span class="footer-col-label">Pages</span>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="service-area.html">Service Area</a></li>
+              <li><a href="contact.html">Get a Quote</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <span class="footer-col-label">Contact</span>
+            <ul>
+              <li class="footer-contact-item"><a href="tel:+19189070298">918-907-0298</a></li>
+              <li class="footer-contact-item"><a href="mailto:Skhomesolutions918@gmail.com">Skhomesolutions918@gmail.com</a></li>
+              <li class="footer-contact-item">Bartlesville, OK &amp; surrounding areas</li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span class="footer-year"></span> SK Painting Solutions</span>
+        <span>Site by <a href="https://novabuildweb.com" target="_blank" rel="noopener noreferrer">NovaBuild LLC</a></span>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
